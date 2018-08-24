@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-styled-components-alphabetical",
+  "version": "0.0.0",
+  "description": "eslint plugin to sort alphabetically styles in styled components",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "siffogh",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "postcss": "^7.0.2",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}

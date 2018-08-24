@@ -1,0 +1,14 @@
+const someStyle = css`
+    &:hover {
+      color: red;
+      background: blue;
+    }
+    background-color: ${themeStyle({
+      dark: '#6b6f74',
+      light: '#cdd4df'
+    })};
+    border-color: ${themeStyle({
+      dark: '#7f8289',
+      light: '#9ea9b7'
+    })};
+`;
