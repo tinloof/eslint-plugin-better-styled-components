@@ -1,4 +1,4 @@
-const someStyle = css`
+const someStyle = css.div`
     background-color: ${themeStyle({
       dark: '#6b6f74',
       light: '#cdd4df'

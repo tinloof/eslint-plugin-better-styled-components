@@ -10,14 +10,14 @@
   "author": "siffogh",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha tests/lib/rules/sort-styles.js"
   },
   "dependencies": {
     "postcss": "^7.0.2",
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
+    "eslint": "^5.4.0",
     "mocha": "^3.1.2"
   },
   "engines": {

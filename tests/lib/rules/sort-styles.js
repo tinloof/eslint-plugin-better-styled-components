@@ -34,7 +34,7 @@ ruleTester.run("sort-styles", rule, {
             code: invalidCode,
             parserOptions,
             errors: [{
-                messageId: "avoidMe"
+                messageId: "sort-styles"
             }]
         }
     ]
