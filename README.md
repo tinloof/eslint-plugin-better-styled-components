@@ -1,6 +1,6 @@
-# eslint-plugin-styled-components-alphabetical
+# eslint-plugin-better-styled-components
 
-eslint plugin to sort alphabetically styles in styled components
+ESlint's rules for styled components.
 
 ## Installation
 
@@ -10,22 +10,22 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-styled-components-alphabetical`:
+Next, install `eslint-plugin-better-styled-components`:
 
 ```
-$ npm install eslint-plugin-styled-components-alphabetical --save-dev
+$ npm install eslint-plugin-better-styled-components --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-styled-components-alphabetical` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-better-styled-components` globally.
 
 ## Usage
 
-Add `styled-components-alphabetical` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `better-styled-components` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "styled-components-alphabetical"
+        "better-styled-components"
     ]
 }
 ```
@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "styled-components-alphabetical/rule-name": 2
+        "better-styled-components/sort-rules-alphabetically": 2
     }
 }
 ```

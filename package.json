@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-styled-components-alphabetical",
+  "name": "eslint-plugin-better-styled-components",
   "version": "0.0.0",
-  "description": "eslint plugin to sort alphabetically styles in styled components",
+  "description": "ESlint's rules for styled components.",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -10,7 +10,7 @@
   "author": "siffogh",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests/lib/rules/sort-styles.js"
+    "test": "mocha tests/lib/rules/sort-rules-alphabetically.js"
   },
   "dependencies": {
     "postcss": "^7.0.2",
@@ -19,7 +19,6 @@
   "devDependencies": {
     "eslint": "^5.4.0",
     "eslint-config-prettier": "^3.0.1",
-    "eslint-plugin-bpmn-io": "^0.5.4",
     "eslint-plugin-prettier": "^2.6.2",
     "mocha": "^3.1.2",
     "prettier": "^1.14.2"

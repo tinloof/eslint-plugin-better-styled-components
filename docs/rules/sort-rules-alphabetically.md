@@ -1,4 +1,4 @@
-# Styles are sorted alphabetically. (sort-styles)
+# Styles are sorted alphabetically. (sort-rules-alphabetically)
 
 Please describe the origin of the rule here.
 

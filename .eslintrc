@@ -1,6 +1,6 @@
 {
   "extends": [
-    "plugin:bpmn-io/es6",
+    "eslint:recommended",
     "plugin:prettier/recommended"
   ],
   "env": {
