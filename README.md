@@ -49,6 +49,8 @@ Then configure the rules you want to use under the rules section.
 * 🔤`sort-declarations-alphabetically`: auto fixable rule that enforces alphabetically sorted declarations.
 
 
+## License
+Unless otherwise specified this project is licensed under [Apache License Version 2.0](./LICENSE).
 
 
 
