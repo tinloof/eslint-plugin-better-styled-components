@@ -8,7 +8,7 @@
 // Requirements
 // ------------------------------------------------------------------------------
 
-const rule = require("../../../lib/rules/sort-rules-alphabetically");
+const rule = require("../../../lib/rules/sort-declarations-alphabetically");
 const RuleTester = require("eslint").RuleTester;
 
 const parserOptions = { ecmaVersion: 8, sourceType: "module" };
@@ -18,7 +18,7 @@ const parserOptions = { ecmaVersion: 8, sourceType: "module" };
 // -------------------------------------------------------------------------------8"
 var ruleTester = new RuleTester();
 
-ruleTester.run("sort-rules-alphabetically", rule, {
+ruleTester.run("sort-declarations-alphabetically", rule, {
   valid: [
     {
       code: "const button = styled.button`height: 200px; width: 300px;`",
@@ -57,7 +57,7 @@ ruleTester.run("sort-rules-alphabetically", rule, {
       parserOptions,
       errors: [
         {
-          messageId: "sort-rules-alphabetically"
+          messageId: "sort-declarations-alphabetically"
         }
       ],
       output: "const button = styled.button`height: 200px; width: 300px;`"
@@ -67,7 +67,7 @@ ruleTester.run("sort-rules-alphabetically", rule, {
       parserOptions,
       errors: [
         {
-          messageId: "sort-rules-alphabetically"
+          messageId: "sort-declarations-alphabetically"
         }
       ],
       output: "const button = css`height: 200px; width: 300px;`"
@@ -79,7 +79,7 @@ ruleTester.run("sort-rules-alphabetically", rule, {
       parserOptions,
       errors: [
         {
-          messageId: "sort-rules-alphabetically"
+          messageId: "sort-declarations-alphabetically"
         }
       ],
       output: `const button = styled.button\`
@@ -94,7 +94,7 @@ ruleTester.run("sort-rules-alphabetically", rule, {
       parserOptions,
       errors: [
         {
-          messageId: "sort-rules-alphabetically"
+          messageId: "sort-declarations-alphabetically"
         }
       ],
       output: `const button = styled.button\`
@@ -111,7 +111,7 @@ ruleTester.run("sort-rules-alphabetically", rule, {
       parserOptions,
       errors: [
         {
-          messageId: "sort-rules-alphabetically"
+          messageId: "sort-declarations-alphabetically"
         }
       ],
       output: `const button = styled.button\`

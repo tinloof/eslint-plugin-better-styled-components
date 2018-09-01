@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "better-styled-components/sort-rules-alphabetically": 2
+        "better-styled-components/sort-declarations-alphabetically": 2
     }
 }
 ```

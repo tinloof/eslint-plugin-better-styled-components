@@ -10,7 +10,7 @@
   "author": "siffogh",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests/lib/rules/sort-rules-alphabetically.js"
+    "test": "mocha tests/lib/rules/sort-declarations-alphabetically.js"
   },
   "dependencies": {
     "postcss": "^7.0.2",
