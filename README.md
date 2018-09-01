@@ -1,6 +1,6 @@
-# eslint-plugin-better-styled-components
+# eslint-plugin-better-styled-components 💅
 
-ESlint's rules for styled components.
+Auto fixable ESlint's rules for styled components.
 
 ## Installation
 
@@ -43,7 +43,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* Fill in provided rules here
+* 🔤`sort-declarations-alphabetically`: auto fixable rule that enforces alphabetically sorted declarations.
 
 
 
