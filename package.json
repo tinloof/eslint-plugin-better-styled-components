@@ -26,5 +26,7 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "Apache License Version 2.0.",
+  "repository": "https://github.com/siffogh/eslint-plugin-better-styled-components",
+  "private": false
 }
