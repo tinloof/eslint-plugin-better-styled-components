@@ -25,6 +25,10 @@ ruleTester.run("sort-declarations-alphabetically", rule, {
       parserOptions
     },
     {
+      code: "const button = styled(Button)`height: 200px; width: 300px;`",
+      parserOptions
+    },
+    {
       code: "const button = css`height: 200px; width: 300px;`",
       parserOptions
     },
@@ -80,6 +84,16 @@ ruleTester.run("sort-declarations-alphabetically", rule, {
         }
       ],
       output: "const button = styled.button`height: 200px; width: 300px;`"
+    },
+    {
+      code: "const button = styled(Button)`width: 300px; height: 200px;`",
+      parserOptions,
+      errors: [
+        {
+          messageId: "sort-declarations-alphabetically"
+        }
+      ],
+      output: "const button = styled(Button)`height: 200px; width: 300px;`"
     },
     {
       code: "const button = css`width: 300px; height: 200px;`",
