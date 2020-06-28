@@ -39,6 +39,16 @@ ruleTester.run("sort-declarations-alphabetically", rule, {
       parserOptions
     },
     {
+      code: `const button = styled.button.attrs({ someAttribute: "unknown" })\`
+        height: 200px; 
+        width: 300px;\``,
+      parserOptions,
+    },
+    {
+      code: `const button = styled(Button).attrs({ someAttribute: "unknown" })\`height: 200px; width: 300px;\``,
+      parserOptions,
+    },
+    {
       code: `const button = styled.button\`
         color: \${({ isBlue }) => (isBlue ? "blue" : "red")};
         height: 200px; 
