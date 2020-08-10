@@ -13,6 +13,7 @@
     "test": "mocha tests/lib/rules/sort-declarations-alphabetically.js"
   },
   "dependencies": {
+    "import-modules": "^2.0.0",
     "postcss": "^7.0.2"
   },
   "devDependencies": {
